@@ -1,0 +1,85 @@
+{
+    "domains": [
+        {
+            "id": 1,
+            "chainId": 1,
+            "caipId": "eip155:1",
+            "name": "ethereum",
+            "type": "evm",
+            "blockConfirmations": 10,
+            "admin": "TBD",
+            "confirmationsByValue": {
+                "1000": "1",
+                "1000000": "10"
+            },
+            "tokens": {
+                "USDC": {
+                    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "decimals": 6
+                }
+            },
+            "hubPool": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+            "acrossPool": "0x0190a2328e072Fc5a7fA00F6C9ae2a16c7F4E32a"
+        },
+        {
+            "id": 5,
+            "chainId": 8453,
+            "caipId": "eip155:8453",
+            "name": "base",
+            "type": "evm",
+            "blockConfirmations": 20,
+            "admin": "TBD",
+            "confirmationsByValue": {
+                "1000": "1",
+                "1000000": "10"
+            },
+            "tokens": {
+                "USDC": {
+                    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+                    "decimals": 6
+                }
+            },
+            "acrossPool": "0xf8f756b8c2F4968DE7FB965e9B504799Ab9ABbB0"
+        },
+        {
+            "id": 9,
+            "chainId": 42161,
+            "caipId": "eip155:42161",
+            "name": "arbitrum",
+            "type": "evm",
+            "blockConfirmations": 20,
+            "admin": "TBD",
+            "confirmationsByValue": {
+                "1000": "1",
+                "1000000": "10"
+            },
+            "tokens": {
+                "USDC": {
+                    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+                    "decimals": 6
+                }
+            },
+            "acrossPool": "0x91F1804aCaf87C2D34A34A70be1bb16bB85D6748"
+        },
+        {
+            "id": 10,
+            "chainId": 10,
+            "caipId": "eip155:10",
+            "name": "optimism",
+            "type": "evm",
+            "blockConfirmations": 20,
+            "admin": "TBD",
+            "confirmationsByValue": {
+                "1000": "1",
+                "1000000": "10"
+            },
+            "tokens": {
+                "USDC": {
+                    "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+                    "decimals": 6
+                }
+            },
+            "acrossPool": "0xF383FD9A49282C9e1C99eB07a819e27E0d7B956c"
+        }
+    ]
+}
