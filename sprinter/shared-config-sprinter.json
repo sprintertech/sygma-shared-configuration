@@ -2,12 +2,10 @@
   "domains": [
     {
       "id": 1,
-      "chainId": 1,
       "caipId": "eip155:1",
       "name": "ethereum",
       "type": "evm",
       "acrossPool": "0x0190a2328e072Fc5a7fA00F6C9ae2a16c7F4E32a",
-      "mayanSwift": "0x0",
       "tokens": {
         "WETH": {
           "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -27,19 +25,15 @@
         }
       },
       "confirmationsByValue": {
-        "1000": "5",
-        "10000": "10",
-        "1000000": "15"
+        "1000": "2"
       }
     },
     {
-      "id": 5,
-      "chainId": 8453,
+      "id": 8453,
       "caipId": "eip155:8453",
       "name": "base",
       "type": "evm",
       "acrossPool": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
-      "mayanSwift": "0x0",
       "tokens": {
         "WETH": {
           "address": "0x4200000000000000000000000000000000000006",
@@ -59,20 +53,15 @@
         }
       },
       "confirmationsByValue": {
-        "1000": "1",
-        "10000": "2",
-        "1000000": "10",
-        "10000000": "15"
+        "1000": "1"
       }
     },
     {
-      "id": 9,
-      "chainId": 42161,
+      "id": 42161,
       "caipId": "eip155:42161",
       "name": "arbitrum",
       "type": "evm",
       "acrossPool": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
-      "mayanSwift": "0x0",
       "tokens": {
         "WETH": {
           "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
@@ -92,20 +81,15 @@
         }
       },
       "confirmationsByValue": {
-        "1000": "1",
-        "10000": "2",
-        "1000000": "10",
-        "10000000": "15"
+        "1000": "2"
       }
     },
     {
       "id": 10,
-      "chainId": 10,
       "caipId": "eip155:10",
       "name": "optimism",
       "type": "evm",
       "acrossPool": "0x6f26Bf09B1C792e3228e5467807a900A503c0281",
-      "mayanSwift": "0x0",
       "tokens": {
         "WETH": {
           "address": "0x4200000000000000000000000000000000000006",
@@ -125,10 +109,7 @@
         }
       },
       "confirmationsByValue": {
-        "1000": "1",
-        "10000": "2",
-        "1000000": "10",
-        "10000000": "15"
+        "1000": "1"
       }
     }
   ]
