@@ -6,6 +6,7 @@
       "name": "ethereum",
       "type": "evm",
       "acrossPool": "0x0190a2328e072Fc5a7fA00F6C9ae2a16c7F4E32a",
+      "hubPool": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
       "tokens": {
         "WETH": {
           "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
