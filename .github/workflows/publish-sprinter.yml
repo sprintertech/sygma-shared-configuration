@@ -13,12 +13,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Upload testnet assets
+      - name: Upload sprinter production assets
         uses: shallwefootball/s3-upload-action@master
         with:
           aws_key_id: ${{ secrets.STAGE_AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.STAGE_AWS_SECRET_ACCESS_KEY }}
-          aws_bucket: chainbridge-assets-stage
+          aws_bucket: sygma-assets-mainnet
           source_dir: './sprinter'
           destination_dir: '.'
-
