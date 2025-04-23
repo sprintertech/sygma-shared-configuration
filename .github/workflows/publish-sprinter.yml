@@ -16,8 +16,8 @@ jobs:
       - name: Upload sprinter production assets
         uses: shallwefootball/s3-upload-action@master
         with:
-          aws_key_id: ${{ secrets.STAGE_AWS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.STAGE_AWS_SECRET_ACCESS_KEY }}
+          aws_key_id: ${{ secrets.PROD_AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
           aws_bucket: sygma-assets-mainnet
           source_dir: './sprinter'
           destination_dir: '.'
